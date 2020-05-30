@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    justify-content: center;
+}
+dt{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+    margin-bottom: 5px;
+}
+dd{
+    margin-inline-start: 0px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.show{
+    background-color: lightcyan;
+    display: flex;
+    flex-direction:column;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+}
+input{
+    outline-style: none ;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    padding: 5px 14px;
+    width:80%;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+}
+.new-btn-login{
+
+    width: 80%; /* 宽度 */
+	height: 40px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #1E90FF; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+   
+}
+.new-btn-login:hover{
+    background: #5599FF;
+}
+.note-help{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+    margin-top: 10px;
+
+}
